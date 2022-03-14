@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario1{
+    background-color: rgb(228, 228, 228);
+    width: 20%;
+    margin-left: 200px;
+    margin-top: 100px;
+    float: left;
+}
+
+form{
+    padding-top: 3px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+
+.cuadro{
+    width: 90%;
+}
+
+.formulario2{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin-right: 200px;
+    margin-top: 100px;
+    float: right;
+}
+
+.cuadro2{
+    height: 60px;
+    width: 90%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.boton{
+    border: none;
+    background-color: rgb(56, 148, 56);
+    padding: 20px 50px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.form2{
+    text-align: center;
+}

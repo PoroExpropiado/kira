@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="formulario1">
+            <form>
+                <h1>Sing Up</h1>
+                <label for="nombres"><b>First Name</b></label>
+                <br>
+                <input type="text" id="nombres" required minlength="2" maxlength="10" class="cuadro">
+            <br> <br>
+                <label for="edad"><b>Age</b></label> 
+            <br>
+                <input type="number" id="edad" required min="1" max="120" class="cuadro">
+            <br> <br>
+                <label for="nombres"><b>Income</b></label>
+            <br>
+                <input type="text" id="nombres" required minlength="2" maxlength="10" class="cuadro">
+            <br> <br>
+                <label for="nombres"><b>More Info</b></label>
+            <br>
+                <textarea name="" id="" cols="40" rows="3"></textarea>
+            <br><br>
+                <label><b>Gender</b></label>
+            <br>
+                <input type="radio" name="genero" value="M"> 
+                <label for="papu"><b>Male</b></label> 
+                <input type="radio" name="genero" value="F"> 
+                <label for="mamu"><b>Female</b></label> 
+                <input type="radio" name="genero" value="T"> 
+                <label for="normal"><b>Trans</b></label> 
+            <br><br>
+                <label for="plan"><b>Plan</b></label>
+            <br>
+                <input list="plan" class="cuadro">
+                <datalist id="plan">
+                    <option value="Plan1">Plan1</option>
+                    <option value="Plan2">Plan2</option>
+                    <option value="Plan3">Plan3</option>
+                    <option value="Plan4">Plan4</option>
+                    <option value="Plan5">Plan5</option>
+                </datalist>
+            <br><br>
+                <input type="checkbox" value="sucribre" id="suscribe"> 
+                <label for="suscribe"><b>Suscribe to Newsletter</b></label>
+            <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+<br>
+        <div class="formulario2">
+            <form class="form2">
+                <h1>CREATE YOUR ACCOUNT</h1>
+                <h2>This is step 1</h2>
+                <br>
+                <input type="email" placeholder="      Email" required class="cuadro2">
+                <br><br>
+                <input type="password" placeholder="      Password" required class="cuadro2">
+                <br><br>
+                <input type="password" placeholder="      Password" required class="cuadro2">
+                <br><br>
+                <input type="submit" value="Next" class="boton">
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
